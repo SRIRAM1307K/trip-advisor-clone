@@ -1594,7 +1594,7 @@
     display: none;
   }
   .search__content--1 p {
-    font-size: 7px;
+    font-size: 8.9px;
     font-family: poppins, monospace;
     font-weight: 600;
   }
@@ -1916,8 +1916,8 @@
     text-align: center;
   }
   .explore-container__1 img {
-    width: 80%;
-    height: 300px;
+    width: 60%;
+    height: 200px;
     color: rgba(255, 255, 255, 1);
     margin-top: 20px;
     margin-bottom: 0;
@@ -1933,8 +1933,8 @@
     background-color: white;
     padding: 10px;
     border-radius: 50%;
-    top: 7%;
-    right: 12%;
+    top: 10%;
+    right: 21%;
     font-size: 20px;
   }
   .desc2 {
