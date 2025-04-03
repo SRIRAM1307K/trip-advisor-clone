@@ -1,5 +1,5 @@
 /* iPad View */
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 481px) {
   .search__content--1 {
     font-size: small;
   }
