@@ -1593,6 +1593,9 @@
   .search__content--1 i {
     display: none;
   }
+  .search__content {
+    width: 100%;
+  }
   .search__content--1 p {
     font-size: 7px;
     font-family: poppins, monospace;
@@ -1940,7 +1943,7 @@
   .desc2 {
     margin-top: 20px;
     font-weight: 600;
-    width: 300px;
+    width: 250px;
     text-align: center;
     font-family: poppins;
     font-size: 15px;
