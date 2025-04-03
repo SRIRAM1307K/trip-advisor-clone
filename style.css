@@ -777,21 +777,27 @@
 }
 
 /* Media Queries */
+/* ================iPad View========================== */
 
-/* ----------Mobile View--------------- */
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   .navbar__s2 {
+    /* display: none; */
+  }
+  .navbar__s3 p {
     display: none;
   }
+  .navbar__s3 i {
+    display: none;
+  }
+
   .heading__top h1 {
     font-size: 28px;
   }
   .search__content--1 i {
-    display: none;
+    /* display: none; */
   }
   .search__content--1 p {
-    font-size: 9px;
+    font-size: 14px;
     font-family: poppins, monospace;
     font-weight: 600;
   }
@@ -800,14 +806,65 @@
   }
   .search__bar--s1 i {
     display: none;
+    width: 100%;
   }
   .search__bar--s1 input {
     outline: none;
     border: none;
     margin: 5px;
     padding: 8px;
-    width: 10%;
+    width: 90%;
     background: transparent;
+  }
+  .image-plan {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 600px;
+    text-align: left;
+  }
+  .image-plan p {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+  }
+  .image-plan p span {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: aliceblue;
+    padding: 6px;
+    color: black;
+    border-radius: 10px;
+  }
+  .image-plan h2 {
+    font-family: poppins, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  .image-plan h3 {
+    font-family: poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  .image-plan button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: #41eaa1;
+    border: 2px solid #41eaa1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+  }
+  .image-plan button:hover {
+    background-color: #87fcc9;
+    cursor: pointer;
   }
   .pondy-container__1 #heart {
     position: absolute;
@@ -1521,20 +1578,23 @@
   }
 }
 
-/* ================iPad View========================== */
+/* ----------Mobile View--------------- */
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 800px) {
   .navbar__s2 {
-    /* display: none; */
+    display: none;
+  }
+  .user-info {
+    display: none;
   }
   .heading__top h1 {
     font-size: 28px;
   }
   .search__content--1 i {
-    /* display: none; */
+    display: none;
   }
   .search__content--1 p {
-    font-size: 14px;
+    font-size: 7px;
     font-family: poppins, monospace;
     font-weight: 600;
   }
@@ -1543,65 +1603,14 @@
   }
   .search__bar--s1 i {
     display: none;
-    width: 100%;
   }
   .search__bar--s1 input {
     outline: none;
     border: none;
     margin: 5px;
     padding: 8px;
-    width: 90%;
+    width: 10%;
     background: transparent;
-  }
-  .image-plan {
-    position: absolute;
-    top: 5%;
-    left: 10%;
-    width: 600px;
-    text-align: left;
-  }
-  .image-plan p {
-    font-family: poppins, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: aliceblue;
-  }
-  .image-plan p span {
-    font-family: poppins, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    background-color: aliceblue;
-    padding: 6px;
-    color: black;
-    border-radius: 10px;
-  }
-  .image-plan h2 {
-    font-family: poppins, sans-serif;
-    font-size: 60px;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-  }
-  .image-plan h3 {
-    font-family: poppins, sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-  }
-  .image-plan button {
-    margin: 10px;
-    padding: 10px 20px;
-    border-radius: 40px;
-    border: none;
-    background-color: #41eaa1;
-    border: 2px solid #41eaa1;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-  }
-  .image-plan button:hover {
-    background-color: #87fcc9;
-    cursor: pointer;
   }
   .pondy-container__1 #heart {
     position: absolute;
