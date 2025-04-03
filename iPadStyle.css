@@ -1,0 +1,91 @@
+/* iPad View */
+@media screen and (max-width: 992px) {
+  .search__content--1 {
+    font-size: small;
+  }
+  .navbar__s1 img {
+    width: 50%;
+  }
+  .navbar__s3 button {
+    margin: 5px;
+    padding: 0 5px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    border: 2px solid black;
+    color: white;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .heading__top {
+    font-size: 20px;
+    margin-top: 140px;
+  }
+  .search__bar--s1 input {
+    outline: none;
+    border: none;
+    margin: 5px;
+    padding: 8px;
+    width: 50%;
+    background: transparent;
+  }
+  .pondy-container__1 #heart {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    top: 12%;
+    right: 1%;
+    font-size: 20px;
+  }
+  .explore-container__1 #heart {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    top: 14%;
+    right: 1%;
+    font-size: 20px;
+  }
+
+  .text-container {
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    font-size: 26px;
+  }
+  .text-container a {
+    text-decoration: underline;
+    color: #000;
+  }
+
+  .text-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .text-container p {
+    font-size: 20px;
+    color: #444;
+  }
+
+  /* Button Styling */
+  .button {
+    padding: 12px;
+    margin-top: 5px;
+    background-color: #000;
+    border: 2px solid #000;
+    color: #fff;
+    font-size: 16px;
+    font-family: poppins, monospace;
+    border-radius: 30px;
+  }
+
+  .button:hover {
+    background-color: #333;
+    cursor: pointer;
+  }
+}
