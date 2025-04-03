@@ -775,6 +775,14 @@
   gap: 20px;
   font-size: 30px;
 }
+.patent {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.patent i {
+  font-size: 30px;
+}
 
 /* Media Queries */
 /* ================iPad View========================== */
@@ -1576,6 +1584,12 @@
     gap: 20px;
     font-size: 15px;
   }
+  .patent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
 }
 
 /* ----------Mobile View--------------- */
@@ -1943,7 +1957,7 @@
   .desc2 {
     margin-top: 20px;
     font-weight: 600;
-    width: 250px;
+    width: 275px;
     text-align: center;
     font-family: poppins;
     font-size: 15px;
@@ -2332,5 +2346,11 @@
     justify-content: space-evenly;
     gap: 20px;
     font-size: 15px;
+  }
+  .patent {
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
